@@ -1,0 +1,20 @@
+
+.hello{
+   text-align: center;
+   font-size: 70px;
+   color: rgb(186, 153, 238);
+}
+
+button{
+   padding: 10px 20px;
+   margin-left: 1140px;
+   background-color: rgba(215, 152, 252, 0.384);
+   border-radius: 50px;
+   border: none;
+   transition: .4s ease;
+}
+
+button:hover{
+   background: rgb(156, 57, 248);
+   box-shadow: 15px 15px 15px rgb(48, 4, 85);
+}
