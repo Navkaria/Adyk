@@ -110,31 +110,31 @@
 //примитивные типы данных
 
 //string
-const someText = 'Some text';
-console.log(typeof someText);
+// const someText = 'Some text';
+// console.log(typeof someText);
 
-//number
-const someNumber = 11;
-console.log(typeof someNumber);
+// number
+// const someNumber = 11;
+// console.log(typeof someNumber);
 
-//boolean
-const someBoolean = true;
-console.log(typeof someBoolean);
+// boolean
+// const someBoolean = true;
+// console.log(typeof someBoolean);
 
-const someBoolean1 = false;
-console.log(typeof someBoolean1);
+// const someBoolean1 = false;
+// console.log(typeof someBoolean1);
 
-//Null
-const someNull = null; //в консоле выводит значение object - является одним из багов JavaScript
-console.log(typeof someNull);
+// Null
+// const someNull = null; //в консоле выводит значение object - является одним из багов JavaScript
+// console.log(typeof someNull);
 
-//Undefined
-let someUndefined;
-console.log(typeof someUndefined);
+// Undefined
+// let someUndefined;
+// console.log(typeof someUndefined);
 
-//Symbols;
-const someSymbols = Symbol();
-console.log(typeof someSymbols);
+// Symbols;
+// const someSymbols = Symbol();
+// console.log(typeof someSymbols);
 
 
 //Ссылочные типы данных - возвращают объект
