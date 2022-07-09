@@ -141,28 +141,28 @@ console.log(typeof someSymbols);
 
 
 
-//Array
-const someArray = [1, 2, 3, 4, 5, 6, 7,  8, 9];
-console.log(typeof someArray);
+// //Array
+// const someArray = [1, 2, 3, 4, 5, 6, 7,  8, 9];
+// console.log(typeof someArray);
 
-//Object Literal
-const someObjectLiteral = {
-   firstProperty: '12',
-   secondProerty: 'secondProerty'
-}
-console.log(typeof someObjectLiteral);
+// //Object Literal
+// const someObjectLiteral = {
+//    firstProperty: '12',
+//    secondProerty: 'secondProerty'
+// }
+// console.log(typeof someObjectLiteral);
 
-//Function
-const someFunction = function(){
+// //Function
+// const someFunction = function(){
 
-};
-console.log(typeof someFunction);
+// };
+// console.log(typeof someFunction);
 
-//Date
-const someDate = new Date();
-console.log(typeof someDate);
+// //Date
+// const someDate = new Date();
+// console.log(typeof someDate);
 
-//Anything else...
+// //Anything else...
 
 
 
