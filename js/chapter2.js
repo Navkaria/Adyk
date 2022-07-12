@@ -307,7 +307,7 @@
 
 // let wordsHTML;
 
-// //Старый подход (до ES6)
+// Старый подход (до ES6)
 // wordsHTML = '<h3>' + 'words love' + '</h3>' + '<ul>' + '<li>t:' + t + '</li>' + '<li>w:' + w + '</li>' + '<li>q:' + q + '</li>' + '<li>y:' + y + '</li>' + '</ul>';
 
 
