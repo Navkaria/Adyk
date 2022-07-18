@@ -797,8 +797,19 @@ ES6 + ===> Хорошо поддерживаются во всех старых 
 
 //*2 Раздел, Урок 35, Тема: Функции. Declarations vs Expressions =================================================================================================
 
-//undefined - означает что функция не возвращает никакого значения
-//console.log('Hello console!');
+//Declarations
+// function getAge(year, yearsNaw){
+//    return yearsNaw - year; 
+// }
+// const myAge = getAge(2003, 2022);
+// console.log(myAge);
+
+//Expressions
+// const getAge2 = function (year, yearsNaw){
+//    return yearsNaw - year; 
+// }
+// const myAge2 = getAge(2003, 2022);
+// console.log(myAge2);
 //*================================================================================================================================================================
 
 
