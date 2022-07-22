@@ -831,12 +831,19 @@ ES6 + ===> Хорошо поддерживаются во всех старых 
 
 //*2 Раздел, Урок 37, Тема: Вызов функций внутри других функций  ==================================================================================================
 
-// function colors(item, color, colorCode){
-// console.log(item, color);
-//    const colorsItem = `The ${item} is ${color}. The cod of the color is ${colorCode}.`;
-// console.log(colorsItem.);
+// function colorsMix (color1, color2){
+//    const newColor = `${color1} + ${color2}`
+//    return newColor;
+// }
+
+// function colors(item, color1, color2){
+//    const color = colorsMix(color1, color2)
+//    const colorsItem = `The ${item} is ${color}.`;
 //    return colorsItem;
 // }
+
+// const colorsCar = colors('car', 'red', 'orenge');
+// console.log(colorsCar)
 //*================================================================================================================================================================
 
 
