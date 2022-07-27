@@ -874,41 +874,41 @@ print Bonus(dept1AverSales, dept2AverSales). Если продажи одног�
 //*2 Раздел, Урок 39-40, Тема: Функции. Задание ==================================================================================================================
 //* Решение
 
-const getAverage = (namber1, namber2, namber3) => (namber1 + namber2 + namber3) / 3;
+// const getAverage = (namber1, namber2, namber3) => (namber1 + namber2 + namber3) / 3;
 
-const Dept1 = getAverage (35467, 29842, 38501);
-const Dept2 = getAverage (70533, 50121, 33899);
-const Dept3 = getAverage (50301, 21984, 19207);
-const Dept4 = getAverage (72381, 41562, 29465);
+// const Dept1 = getAverage (35467, 29842, 38501);
+// const Dept2 = getAverage (70533, 50121, 33899);
+// const Dept3 = getAverage (50301, 21984, 19207);
+// const Dept4 = getAverage (72381, 41562, 29465);
 
-console.log(Math.trunc(Dept1),Math.trunc(Dept2),Math.trunc(Dept3), Math.trunc(Dept4))
-
-
-const printBonus = function(dept1AverSales, dept2AverSales) {
-   if  (dept1AverSales > dept2AverSales){
-      const razn = dept1AverSales - dept2AverSales;
-      const prosent = razn / dept2AverSales * 100;
-      console.log(`Первый депортамент показали хороший результат и получили бонус в размере ${prosent}`)
-   }else if (dept1AverSales < dept2AverSales){
-      console.log('Первый депортамент надеюсь получит хорошие результаты в следующем квартале')
-   } else if (prosent <= 30){
-      console.log('Буду ждать от вас хороший результатов в следующем квартале')
-   }if  (dept2AverSales > dept1AverSales){
-      const razn = dept2AverSales - dept1AverSales;
-      const prosent = razn / dept1AverSales * 100;
-      console.log(`Второй депортамент показали хороший результат и получили бонус в размере ${prosent}`)
-   } else if (dept2AverSales < dept1AverSales){
-      console.log('Второй депортамент надеюсь получит хорошие результаты в следующем квартале')
-   } else if (prosent <= 30){
-      console.log('Буду ждать от вас хороший результатов в следующем квартале')
-   }
-}
+// console.log(Math.trunc(Dept1),Math.trunc(Dept2),Math.trunc(Dept3), Math.trunc(Dept4))
 
 
+// const printBonus = function(dept1AverSales, dept2AverSales) {
+//    if  (dept1AverSales > dept2AverSales){
+//       const razn = dept1AverSales - dept2AverSales;
+//       const prosent = razn / dept2AverSales * 100;
+//       console.log(`Первый депортамент показали хороший результат и получили бонус в размере ${prosent}`)
+//    }else if (dept1AverSales < dept2AverSales){
+//       console.log('Первый депортамент надеюсь получит хорошие результаты в следующем квартале')
+//    } else if (prosent <= 30){
+//       console.log('Буду ждать от вас хороший результатов в следующем квартале')
+//    }if  (dept2AverSales > dept1AverSales){
+//       const razn = dept2AverSales - dept1AverSales;
+//       const prosent = razn / dept1AverSales * 100;
+//       console.log(`Второй депортамент показали хороший результат и получили бонус в размере ${prosent}`)
+//    } else if (dept2AverSales < dept1AverSales){
+//       console.log('Второй депортамент надеюсь получит хорошие результаты в следующем квартале')
+//    } else if (prosent <= 30){
+//       console.log('Буду ждать от вас хороший результатов в следующем квартале')
+//    }
+// }
 
 
-printBonus(Dept1, Dept2);
-printBonus(Dept3, Dept4);
+
+
+// printBonus(Dept1, Dept2);
+// printBonus(Dept3, Dept4);
 
 
 //*================================================================================================================================================================
@@ -917,7 +917,27 @@ printBonus(Dept3, Dept4);
 
 //?2 Раздел, Урок  41, Тема: Массивы =============================================================================================================================
 
-//<script>alert('hello again')</script>
+//первый способ создания массивов
+// const reindColor = ['красный', 'голубой', 'оранжевый', 'фиолетовый']
+
+// console.log(reindColor[1]);
+// console.log('Этот цвет ' + reindColor[2]);
+// reindColor[2] = 'персиковый';
+// reindColor[reindColor.length] = 'индиго';
+// console.log(reindColor);
+
+
+//второй способ создания массивов
+// const namerL = [];
+// namerL[0] = 'первый';
+// namerL[1] = 'второй';
+// namerL[2] = 'третий';
+// namerL[3] = 'четвертый';
+// namerL[4] = 'пятый';
+// namerL[5] = 'шестой';
+// namerL[6] = 'седьмой';
+
+// console.log(namerL);
 //?================================================================================================================================================================
 
 
