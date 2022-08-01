@@ -1016,7 +1016,7 @@ print Bonus(dept1AverSales, dept2AverSales). Если продажи одног�
 // katObgekt = {name:'Kat',
 //    lastname:'Yanovich',
 //    year: 19,
-//    haith:160,
+//    height:160,
 //    birthYear: 2003,
 //    likeNamber:11};
 
@@ -1027,7 +1027,32 @@ print Bonus(dept1AverSales, dept2AverSales). Если продажи одног�
 
 //?2 Раздел, Урок 46, Тема: Объекты. Dot vs Bracket Notation ======================================================================================================
 
-//<script>alert('hello again')</script>
+// katObgekt = {name:'Kat',
+//    lastname:'Yanovich',
+//    year: 19,
+//    height:160,
+//    birthYear: 2003,
+//    likeNamber:11,
+//    famale:['Ruslan', 'Kat']
+// };
+
+// console.log(katObgekt);
+// console.log(katObgekt.birthYear);
+// console.log(katObgekt['birthYear']);
+
+// const basName = 'name';
+// console.log(katObgekt['last' + basName]);
+
+// // const user = prompt('Что вы хотите знать о Кате? name, lastname, year, heigth, birthYear, likeNamber');
+// // if(katObgekt[user]){
+// //    console.log(katObgekt[user]);//так мы можем выводить пользователю информацию в консоле
+// // }else{
+// //    console.log('прочитай внимательно')
+// // }
+// //создаем новые свойсва
+// katObgekt.location = 'Belarus';
+// console.log(katObgekt)
+// console.log(`${katObgekt.name} имеет ${katObgekt.famale.length} члена семьи и первым из них является ${katObgekt.famale[0]}`);
 //?================================================================================================================================================================
 
 
