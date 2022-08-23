@@ -1219,14 +1219,14 @@ print Bonus(dept1AverSales, dept2AverSales). Если продажи одног�
 
 // console.log(types)
 
-const birthYear = [1231, 1251, 2332, 2004, 3240, 1253, 2132];
-const age = [];
+// const birthYear = [1231, 1251, 2332, 2004, 3240, 1253, 2132];
+// const age = [];
 
-for (let i = 0; i < birthYear.length; i++){
-   age.push(2022 - birthYear[i]);//вычесление
-}
+// for (let i = 0; i < birthYear.length; i++){
+//    age.push(2022 - birthYear[i]);//вычесление
+// }
 
-console.log(age);
+// console.log(age);
 //?================================================================================================================================================================
 
 
