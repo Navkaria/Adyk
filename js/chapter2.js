@@ -1272,8 +1272,12 @@ for (let i = user1234.length -1; i >= 0; i--){
 
 console.log('loop in loop');
 
-for (let exe = 1; exe <=3; exe++ ){
-   console.log(`exe ${exe}`);
+for (let Exe = 1; Exe <=3; Exe++ ){
+   console.log(`Exe ${Exe}`);
+
+   for(rep = 1; rep <= 5; rep++){
+      console.log(`rep ${rep}`)
+   }
 }
 
 //?================================================================================================================================================================
