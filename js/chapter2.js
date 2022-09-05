@@ -1263,6 +1263,26 @@ print Bonus(dept1AverSales, dept2AverSales). Если продажи одног�
 //    console.log(user1234[i]);
 // }
 
+// console.log('backwards iteration');
+// const user1234 = ['Kat', 'Yanovich', 1231, '19', '24.01', ['Ruslan'], false, 0, 'love', true, 121];
+
+// for (let i = user1234.length -1; i >= 0; i--){
+//    console.log(user1234[i]);
+// }
+
+// console.log('loop in loop');
+
+// for (let Exe = 1; Exe <=3; Exe++ ){
+//    console.log(`Exe ${Exe}`);
+
+//    for(re = 1; re <= 5; re++){
+//       console.log(`re ${re}`)
+//    }
+// }
+
+
+
+
 console.log('backwards iteration');
 const user1234 = ['Kat', 'Yanovich', 1231, '19', '24.01', ['Ruslan'], false, 0, 'love', true, 121];
 
@@ -1276,10 +1296,11 @@ for (let Exe = 1; Exe <=3; Exe++ ){
    console.log(`Exe ${Exe}`);
 
    for(re = 1; re <= 5; re++){
-      console.log(`re ${re}`)
+      console.log(`ex ${Exe} re ${re}`)
    }
+   console.log('Out of iner loop');
 }
-
+console.log('Out of outer loop');
 //?================================================================================================================================================================
 
 
