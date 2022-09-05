@@ -1275,8 +1275,8 @@ console.log('loop in loop');
 for (let Exe = 1; Exe <=3; Exe++ ){
    console.log(`Exe ${Exe}`);
 
-   for(rep = 1; rep <= 5; rep++){
-      console.log(`rep ${rep}`)
+   for(re = 1; re <= 5; re++){
+      console.log(`re ${re}`)
    }
 }
 
